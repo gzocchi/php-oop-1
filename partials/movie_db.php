@@ -15,3 +15,10 @@ $second_movie->setDuration(108);
 $second_movie->release_year = 1989;
 $second_movie->overview = $overview;
 $second_movie->poster = "https://upload.wikimedia.org/wikipedia/en/c/c2/Back_to_the_Future_Part_II.jpg";
+
+$third_movie = new Movie("Back to the Future Part III", "Robert Zemeckis");
+$third_movie->title = "Ritorno al futuro - Parte III";
+$third_movie->setDuration(118);
+$third_movie->release_year = 1990;
+$third_movie->overview = $overview;
+$third_movie->poster = "https://upload.wikimedia.org/wikipedia/en/4/4e/Back_to_the_Future_Part_III.jpg";
